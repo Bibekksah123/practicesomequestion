@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//        function greet() {
+//     if (true) {
+//         let greeting = "Hello, world!";
+    
+//     console.log(greeting);
+//     }
+// }
+
+// greet();
+// const num = 10;
+
+//  const num1 = 20;
+// console.log(num);
+// console.log(num1);
+// function add(a, b) {
+//     return a + b;
+// }
+
+// console.log(add(5, 10));
+// let array = [1, 2, 3];
+// console.log(array[3-1]);
+// function reverseString(str) {
+//     let reversedStr = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         reversedStr += str[i];
+//     }
+//     return reversedStr;
+// }
+
+// console.log(reverseString("hello")); // should return "olleh"
+
+// Function to calculate the number of days to finish cupcakes
+function calculateDays(packsBought, cupcakesPerPack, cupcakesPerDay) {
+    var totalCupcakes = packsBought * cupcakesPerPack;
+    var days = Math.ceil(totalCupcakes / cupcakesPerDay);
+    return days;
+}
+
+// Given values
+var packsBought = 4; // Packs of cupcakes bought
+var cupcakesPerPack = 6; // Cupcakes per pack
+var cupcakesPerDay = 3; // Cupcakes eaten per day
+
+// Calculate and output the result
+var daysToFinish = calculateDays(packsBought, cupcakesPerPack, cupcakesPerDay);
+console.log("It will take Sarah " + daysToFinish + " days to finish all the cupcakes.");
+
+
+
+
+    </script>
+</body>
+</html>
